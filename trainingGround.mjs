@@ -50,9 +50,9 @@ export default class TrainingGround {
     let hp = strength * 10;
 
     if (hp > 666) {
-      hp = 666;
+      return (hp = 666);
+    } else {
+      return hp;
     }
-
-    return hp;
   }
 }
